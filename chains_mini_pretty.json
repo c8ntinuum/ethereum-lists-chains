@@ -1715,7 +1715,7 @@
   "faucets": [],
   "infoURL": "https://namefi.io/"
 }, {
-  "name": "HashKey Chain Testnet",
+  "name": "HSKChain Testnet",
   "chainId": 133,
   "shortName": "HSKT",
   "networkId": 133,
@@ -1726,7 +1726,7 @@
   },
   "rpc": ["https://testnet.hsk.xyz"],
   "faucets": [],
-  "infoURL": "https://hashkeychain.net"
+  "infoURL": "https://hskchain.net"
 }, {
   "name": "iExec Sidechain",
   "chainId": 134,
@@ -2274,7 +2274,7 @@
   "faucets": [],
   "infoURL": "https://www.dcnetio.cloud"
 }, {
-  "name": "HashKey Chain",
+  "name": "HSKChain",
   "chainId": 177,
   "shortName": "hsk",
   "networkId": 177,
@@ -2285,7 +2285,7 @@
   },
   "rpc": ["https://mainnet.hsk.xyz"],
   "faucets": [],
-  "infoURL": "https://hsk.xyz"
+  "infoURL": "https://hskchain.net"
 }, {
   "name": "Abey Testnet",
   "chainId": 178,
@@ -6901,6 +6901,19 @@
   "rpc": ["https://mainnet-node-0.maichain.org", "https://mainnet-node-1.maichain.org", "https://mainnet-node-2.maichain.org"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "Nura Chain",
+  "chainId": 1020,
+  "shortName": "nura",
+  "networkId": 1020,
+  "nativeCurrency": {
+    "name": "Nura Coin",
+    "symbol": "NURA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.nurachain.net"],
+  "faucets": [],
+  "infoURL": "https://nurachain.net"
 }, {
   "name": "Sakura",
   "chainId": 1022,
@@ -14646,7 +14659,7 @@
     "symbol": "ORIGEN",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://ordenglobal-rpc.com", "https://rpc.ordenglobal-rpc.com"],
   "faucets": [],
   "infoURL": "https://ordenglobal.org"
 }, {
@@ -20682,6 +20695,19 @@
   "faucets": [],
   "infoURL": "https://monad.xyz"
 }, {
+  "name": "CHEESE Blockchain Mainnet",
+  "chainId": 20250,
+  "shortName": "nch",
+  "networkId": 20250,
+  "nativeCurrency": {
+    "name": "Native Cheesecoin",
+    "symbol": "NCH",
+    "decimals": 18
+  },
+  "rpc": ["https://cheeseblockchain.com/api/rpc"],
+  "faucets": [],
+  "infoURL": "https://cheeseblockchain.com"
+}, {
   "name": "MACos Chain",
   "chainId": 20261,
   "shortName": "macos",
@@ -21344,6 +21370,19 @@
   "rpc": ["https://ormos.integralayer.com/rpc"],
   "faucets": [],
   "infoURL": "https://integralayer.com"
+}, {
+  "name": "Coinbosa Chain",
+  "chainId": 26262,
+  "shortName": "bosa",
+  "networkId": 26262,
+  "nativeCurrency": {
+    "name": "Coinbosa",
+    "symbol": "BOSA",
+    "decimals": 18
+  },
+  "rpc": ["https://explorer.coinbosa.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://coinbosa.com"
 }, {
   "name": "DucatusX Testnet",
   "chainId": 26482,
@@ -24643,7 +24682,7 @@
     "symbol": "ANIME",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://public-rpc.anime.xyz"],
   "faucets": [],
   "infoURL": "https://www.anime.xyz"
 }, {
@@ -26863,12 +26902,25 @@
   "networkId": 101088,
   "nativeCurrency": {
     "name": "Xitcoin",
-    "symbol": "$XTC",
-    "decimals": 8
+    "symbol": "XTC",
+    "decimals": 18
   },
   "rpc": ["https://network.xitcoin.org"],
   "faucets": [],
-  "infoURL": "https://docs.xitcoin.org/"
+  "infoURL": "https://xitcoin.gitbook.io/guide/"
+}, {
+  "name": "Xitcoin Testnet",
+  "chainId": 101089,
+  "shortName": "xtct",
+  "networkId": 101089,
+  "nativeCurrency": {
+    "name": "Xitcoin",
+    "symbol": "XTC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc-testnet.xitcoin.org"],
+  "faucets": ["https://faucet-testnet.xitcoin.org/"],
+  "infoURL": "https://xitcoin.gitbook.io/guide/"
 }, {
   "name": "Creditcoin",
   "chainId": 102030,
@@ -35228,4 +35280,17 @@
   "rpc": ["https://dchain-2716446429837000-1.jsonrpc.sagarpc.io"],
   "faucets": [],
   "infoURL": "https://www.dchain.foundation/"
+}, {
+  "name": "DuckFourFourChain",
+  "chainId": 2716446429837001,
+  "shortName": "dffc",
+  "networkId": 2716446429837001,
+  "nativeCurrency": {
+    "name": "DuckFourFourCoin",
+    "symbol": "DFFC",
+    "decimals": 18
+  },
+  "rpc": ["https://main-duckchain.zeninhost.xyz", "wss://duckfourfourchain-ws.zeninhost.xyz"],
+  "faucets": [],
+  "infoURL": "https://duckfourfourchain.zeninhost.xyz"
 }]

@@ -2140,6 +2140,14 @@
     "format": "svg"
   }]
 }, {
+  "name": "cheese",
+  "icons": [{
+    "url": "ipfs://QmU1wPdMWExN9CeZPnW9vqKc4LuF483hsF5sxHeGg8P4Ug",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "everclear",
   "icons": [{
     "url": "ipfs://QmQBiGUPQ4f7zREjdvaV4itwJB2gCaYEMvtaiDqFMweTPn",
@@ -2513,6 +2521,14 @@
     "url": "ipfs://bafkreifs54njblqxn4d77fcudxzqbaon45pgk4gmmtqe5lnhujkyztgxvu",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "hskchain",
+  "icons": [{
+    "url": "ipfs://bafkreih3bto5rvvbteubflxqta2vxqepdfmpdogr53ib32evohqc2hd254",
+    "width": 200,
+    "height": 200,
     "format": "png"
   }]
 }, {
@@ -4036,6 +4052,14 @@
     "format": "png"
   }]
 }, {
+  "name": "garuda",
+  "icons": [{
+    "url": "ipfs://bafkreicnrzbtgdhqbkruyoii3wtuevngdb5dmdy32uer67jx633l5cg4zm",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "zero",
   "icons": [{
     "url": "ipfs://QmWpvBtmDhZSAnRww5ZU6BvEbDbxKEzoyjWcanjc1UBD9X",
@@ -4551,9 +4575,9 @@
 }, {
   "name": "ozonechain",
   "icons": [{
-    "url": "ipfs://QmbM4weV8Bk6c9yNhosYntkVw39SNZtCHYGgWyXTxkevZ8",
-    "width": 1600,
-    "height": 1600,
+    "url": "ipfs://bafkreiexq4rxms3nrlfbgw75or2ijq62wonbcmyqhnbifoppvqzunksuma",
+    "width": 256,
+    "height": 256,
     "format": "png"
   }]
 }, {
@@ -5838,6 +5862,14 @@
     "format": "svg"
   }]
 }, {
+  "name": "anime",
+  "icons": [{
+    "url": "ipfs://bafkreihoelsyfkrizzyp5xneksj2k3lbzktf6g7wbi5zpgdnkkrct5ir4e",
+    "width": 500,
+    "height": 500,
+    "format": "png"
+  }]
+}, {
   "name": "camelark",
   "icons": [{
     "url": "ipfs://QmeJerrsURFNt2LL7DE7TxeunjrQXiuezdfHyqmsbwX3MZ",
@@ -6600,6 +6632,14 @@
     "url": "ipfs://QmZN3AzgetKvuTnZvsPPYTvtcsPa73ScGdTguXGHxc2CpN",
     "width": 1200,
     "height": 1200,
+    "format": "png"
+  }]
+}, {
+  "name": "coinbosa",
+  "icons": [{
+    "url": "ipfs://bafkreiaid7e3fiurx6ubdyjrbzlmrkvvrax5z5gjuoavdgv5dnu4usxb4a",
+    "width": 96,
+    "height": 96,
     "format": "png"
   }]
 }, {
@@ -9027,6 +9067,14 @@
     "format": "png"
   }]
 }, {
+  "name": "fmc",
+  "icons": [{
+    "url": "ipfs://bafkreie73r5dui4qgjakxd5pavilwlnqhlmkchaj53o5kwebo7zidor7na",
+    "width": 1024,
+    "height": 1024,
+    "format": "png"
+  }]
+}, {
   "name": "dymension",
   "icons": [{
     "url": "ipfs://bafkreic4sjyqikz33xzpcctczvkiwfj44q5i3i7zslycnjiqmyx5ybc3fi",
@@ -9587,6 +9635,14 @@
     "format": "png"
   }]
 }, {
+  "name": "dffc",
+  "icons": [{
+    "url": "ipfs://QmYhCp5uZj28VaWNFCLfEveBWnk7LnWfmoKsn96vRfCsS5",
+    "width": 1536,
+    "height": 1536,
+    "format": "jpg"
+  }]
+}, {
   "name": "delaTestnet",
   "icons": [{
     "url": "ipfs://QmZQbfJfxYez8iQyVsB65y7ZTssKbgUpMXzPTEk5xGDwQB",
@@ -10024,6 +10080,14 @@
     "url": "ipfs://bafkreifzrwo6ctcl3ns5y7jzo3y7lnpg6abfzjiojvbrgrfmwa2tsj4r2y",
     "width": 256,
     "height": 256,
+    "format": "png"
+  }]
+}, {
+  "name": "ordenglobal",
+  "icons": [{
+    "url": "ipfs://bafkreicn6kctjauo7yoam3daqzs3vybogw6nkwuhtls7isnhubti74qqvi",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {

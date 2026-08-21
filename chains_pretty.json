@@ -2721,9 +2721,10 @@
   "chainId": 132,
   "networkId": 132
 }, {
-  "name": "HashKey Chain Testnet",
-  "title": "HashKey Chain Testnet",
-  "chain": "HashKey Chain Testnet",
+  "name": "HSKChain Testnet",
+  "title": "HSKChain Testnet",
+  "chain": "HSKChain Testnet",
+  "icon": "hskchain",
   "rpc": ["https://testnet.hsk.xyz"],
   "faucets": [],
   "nativeCurrency": {
@@ -2731,13 +2732,13 @@
     "symbol": "HSK",
     "decimals": 18
   },
-  "infoURL": "https://hashkeychain.net",
+  "infoURL": "https://hskchain.net",
   "shortName": "HSKT",
   "chainId": 133,
   "networkId": 133,
   "explorers": [{
     "name": "blockscout",
-    "url": "https://testnet-explorer.hsk.xyz",
+    "url": "https://testnet-explorer.hskchain.net",
     "icon": "blockscout",
     "standard": "EIP3091"
   }],
@@ -3411,6 +3412,7 @@
 }, {
   "name": "Farm Chain",
   "chain": "FMC",
+  "icon": "fmc",
   "rpc": ["https://rpc.fmcscan.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -3653,9 +3655,10 @@
     "standard": "none"
   }]
 }, {
-  "name": "HashKey Chain",
-  "title": "HashKey Chain",
-  "chain": "HashKey Chain",
+  "name": "HSKChain",
+  "title": "HSKChain",
+  "chain": "HSKChain",
+  "icon": "hskchain",
   "rpc": ["https://mainnet.hsk.xyz"],
   "faucets": [],
   "nativeCurrency": {
@@ -3663,18 +3666,13 @@
     "symbol": "HSK",
     "decimals": 18
   },
-  "infoURL": "https://hsk.xyz",
+  "infoURL": "https://hskchain.net",
   "shortName": "hsk",
   "chainId": 177,
   "networkId": 177,
   "explorers": [{
     "name": "blockscout",
-    "url": "https://hashkey.blockscout.com",
-    "icon": "blockscout",
-    "standard": "EIP3091"
-  }, {
-    "name": "blockscout",
-    "url": "https://explorer.hsk.xyz",
+    "url": "https://hsk.blockscout.com",
     "icon": "blockscout",
     "standard": "EIP3091"
   }],
@@ -11429,6 +11427,30 @@
     "name": "maiscan",
     "url": "https://maiscan.org",
     "icon": "mai",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Nura Chain",
+  "chain": "Nura",
+  "rpc": ["https://rpc.nurachain.net"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Nura Coin",
+    "symbol": "NURA",
+    "decimals": 18
+  },
+  "infoURL": "https://nurachain.net",
+  "shortName": "nura",
+  "chainId": 1020,
+  "networkId": 1020,
+  "explorers": [{
+    "name": "Nura Explorer",
+    "url": "https://explorer.nurachain.net",
     "standard": "EIP3091"
   }]
 }, {
@@ -24260,7 +24282,7 @@
 }, {
   "name": "Orden Global",
   "chain": "OGB",
-  "rpc": [],
+  "rpc": ["https://ordenglobal-rpc.com", "https://rpc.ordenglobal-rpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Origen",
@@ -24271,7 +24293,13 @@
   "shortName": "ogb",
   "chainId": 5550,
   "networkId": 5550,
-  "status": "incubating"
+  "icon": "ordenglobal",
+  "explorers": [{
+    "name": "ordenscan",
+    "url": "https://ordenscan.com",
+    "standard": "EIP3091"
+  }],
+  "status": "active"
 }, {
   "name": "Nahmii 2 Mainnet",
   "chain": "Nahmii",
@@ -28604,7 +28632,8 @@
     "url": "https://explorer.garudachain.id",
     "standard": "EIP3091"
   }],
-  "status": "active"
+  "status": "active",
+  "icon": "garuda"
 }, {
   "name": "MARO Blockchain Mainnet",
   "chain": "MARO Blockchain",
@@ -34207,6 +34236,29 @@
   "slip44": 1,
   "explorers": []
 }, {
+  "name": "CHEESE Blockchain Mainnet",
+  "chain": "CHEESE",
+  "icon": "cheese",
+  "rpc": ["https://cheeseblockchain.com/api/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Native Cheesecoin",
+    "symbol": "NCH",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }],
+  "infoURL": "https://cheeseblockchain.com",
+  "shortName": "nch",
+  "chainId": 20250,
+  "networkId": 20250,
+  "explorers": [{
+    "name": "CHEESE Blockchain Explorer",
+    "url": "https://cheeseblockchain.com/explorer",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "MACos Chain",
   "chain": "MACOS",
   "icon": "macos",
@@ -35284,6 +35336,26 @@
     "name": "Integra Testnet Blockscout",
     "url": "https://testnet.blockscout.integralayer.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Coinbosa Chain",
+  "chain": "BOSA",
+  "rpc": ["https://explorer.coinbosa.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Coinbosa",
+    "symbol": "BOSA",
+    "decimals": 18
+  },
+  "infoURL": "https://coinbosa.com",
+  "shortName": "bosa",
+  "chainId": 26262,
+  "networkId": 26262,
+  "icon": "coinbosa",
+  "explorers": [{
+    "name": "Coinbosa Explorer",
+    "url": "https://explorer.coinbosa.com",
+    "standard": "none"
   }]
 }, {
   "name": "DucatusX Testnet",
@@ -41075,7 +41147,7 @@
 }, {
   "name": "Animechain Mainnet",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://public-rpc.anime.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Animecoin",
@@ -41086,8 +41158,9 @@
   "shortName": "anime",
   "chainId": 69000,
   "networkId": 69000,
+  "icon": "anime",
   "explorers": [{
-    "name": "Animechain explorer",
+    "name": "Animechain Explorer",
     "url": "https://explorer.anime.xyz",
     "standard": "EIP3091"
   }]
@@ -42132,10 +42205,10 @@
   "networkId": 80069,
   "icon": "berachain",
   "explorers": [{
-    "name": "Beratrail",
-    "url": "https://bepolia.beratrail.io",
+    "name": "Berascan Bepolia Testnet Block Explorer",
+    "url": "https://testnet.berascan.com",
     "icon": "berachain",
-    "standard": "none"
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Berachain bArtio",
@@ -42197,12 +42270,8 @@
   "networkId": 80094,
   "icon": "berachain",
   "explorers": [{
-    "name": "Berascan",
+    "name": "Berascan Berachain Block Explorer",
     "url": "https://berascan.com",
-    "standard": "EIP3091"
-  }, {
-    "name": "Beratrail",
-    "url": "https://beratrail.io",
     "standard": "EIP3091"
   }]
 }, {
@@ -44707,15 +44776,35 @@
   "rpc": ["https://network.xitcoin.org"],
   "nativeCurrency": {
     "name": "Xitcoin",
-    "symbol": "$XTC",
-    "decimals": 8
+    "symbol": "XTC",
+    "decimals": 18
   },
-  "infoURL": "https://docs.xitcoin.org/",
+  "infoURL": "https://xitcoin.gitbook.io/guide/",
   "shortName": "Xitcoin",
   "chainId": 101088,
   "networkId": 101088,
   "icon": "xitcoin",
   "explorers": []
+}, {
+  "name": "Xitcoin Testnet",
+  "chain": "XITCOIN",
+  "faucets": ["https://faucet-testnet.xitcoin.org/"],
+  "rpc": ["https://evm-rpc-testnet.xitcoin.org"],
+  "nativeCurrency": {
+    "name": "Xitcoin",
+    "symbol": "XTC",
+    "decimals": 18
+  },
+  "infoURL": "https://xitcoin.gitbook.io/guide/",
+  "shortName": "xtct",
+  "chainId": 101089,
+  "networkId": 101089,
+  "icon": "xitcoin",
+  "explorers": [{
+    "name": "Xitcoin Testnet Explorer",
+    "url": "https://evm-explorer-testnet.xitcoin.org",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Creditcoin",
   "chain": "CTC",
@@ -59063,4 +59152,25 @@
     "url": "https://dchain-2716446429837000-1.sagaexplorer.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "DuckFourFourChain",
+  "chain": "DFFC",
+  "icon": "dffc",
+  "rpc": ["https://main-duckchain.zeninhost.xyz", "wss://duckfourfourchain-ws.zeninhost.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DuckFourFourCoin",
+    "symbol": "DFFC",
+    "decimals": 18
+  },
+  "infoURL": "https://duckfourfourchain.zeninhost.xyz",
+  "shortName": "dffc",
+  "chainId": 2716446429837001,
+  "networkId": 2716446429837001,
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "explorers": []
 }]
